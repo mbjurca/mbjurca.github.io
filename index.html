@@ -54,6 +54,47 @@
             </tr>
           </tbody>
 
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+		  
+            <tr onmouseout="rtgs2_stop()" onmouseover="rtgs2_start()" bgcolor="#ffffd0">
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one_rt_gs2">
+                  <div class="two" id='rt_gs2_image'><video  width=100% muted autoplay loop>
+                  <source src="videos/rt_gs2.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div>
+                  <img src='images/rt-gs2.png' width=100%>
+                </div>
+                <script type="text/javascript">
+                  function rtgs2_start() {
+                  document.getElementById('rt_gs2_image').style.opacity = "1";
+                  }
+          
+                  function rtgs2_stop() {
+                  document.getElementById('rt_gs2_image').style.opacity = "0";
+                  }
+                  rtgs2_stop()
+                </script>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <strong>RT-GS2: Real-Time Generalizable Semantic Segmentation for 3D Gaussian Representations of Radiance Fields</strong>
+                  <br>
+                <strong>Mihnea-Bogdan Jurca</a>*,
+                <a href="https://remcoroyen.github.io/">Remco Royen*</a>,
+                <a href="https://users.utcluj.ro/~igiosan/#about">Ion Giosan</a>,
+                <a href="https://www.etrovub.be/people/member/about-bio/acmuntea/">Adrian Munteanu</a>
+                <br>
+                <em>Arxiv</em>, 2024
+                <br>
+                <a href="https://arxiv.org/abs/2405.18033">[ArXiv]</a> 
+                [Code]
+                <a href="https://mbjurca.github.io/rt-gs2/">[Project Page]</a> 
+                <p></p>
+                <p>
+                The first generalizable semantic segmentation method employing Gaussian Splatting. Our method is not only superior in segmentation quality, but also achieves real-time performance of 27 FPS, marking an astonishing 901 times speedup compared to the SOTA.</p>
+                </td>
+            </tr>
+
 
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
