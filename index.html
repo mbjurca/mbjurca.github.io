@@ -5,17 +5,19 @@
 
     <title>Mihnea-Bogdan Jurca</title>
 
-    <meta name="author" content="Jon Barron">
+    <meta name="author" content="Mihnea-Bogdan Jurca">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    
+
   </head>
 
   <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <table class="main-container" style="width:100%;max-width:820px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
       <tr style="padding:0px">
         <td style="padding:0px">
+
+          <!-- ── Header / Bio ── -->
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr style="padding:0px">
               <td style="padding:2.5%;width:63%;vertical-align:middle">
@@ -23,87 +25,290 @@
                   Mihnea-Bogdan Jurca
                 </p>
                 <p>
-                  I'm a research scientist at <a href="https://www.dotlumen.com/">dotLumen</a>, where I work on equipping assistive technologies for visually impaired persons with navigation technologies using deep learning and computer vision.
-                </p>
-                <p>
-		 I am a first-year PhD student at Vrije Universiteit Brussel and Universitatea Tehnică din Cluj-Napoca. I hold MSc degrees in Computer Vision and Artificial Intelligence, as well as in Applied Computer Science. My research interests focus on novel view synthesis and scene understanding, areas I explored extensively during my master's studies. 
+		 I am a second-year PhD student at Vrije Universiteit Brussel and Universitatea Tehnic&#259; din Cluj-Napoca. I hold MSc degrees in Computer Vision and Artificial Intelligence, as well as in Applied Computer Science. My research interests focus on novel view synthesis and scene understanding, areas I explored extensively during my master's studies.
 		</p>
-                <p style="text-align:center">
-                  <a href="mailto:mihnea-bogdan.jurca@vub.be">Email</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/citations?user=EuRbJvEAAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://ro.linkedin.com/in/mihnea-jurca-12439720b&ved=2ahUKEwjUpb-ljYuHAxXi8wIHHXMvB7gQFnoECA8QAQ&usg=AOvVaw1p1slb0hJTOGo5J8bTGMpd">LinkedIn</a> &nbsp;/&nbsp;
+                <p>
+                  I also have industry experience in equipping assistive technologies for visually impaired persons with navigation technologies using deep learning and computer vision.
+                </p>
+                <p class="social-links" style="text-align:center">
+                  <a href="mailto:mihnea-bogdan.jurca@vub.be">Email</a>
+                  <a href="https://scholar.google.com/citations?user=EuRbJvEAAAAJ&hl=en">Scholar</a>
+                  <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://ro.linkedin.com/in/mihnea-jurca-12439720b&ved=2ahUKEwjUpb-ljYuHAxXi8wIHHXMvB7gQFnoECA8QAQ&usg=AOvVaw1p1slb0hJTOGo5J8bTGMpd">LinkedIn</a>
                   <a href="https://github.com/mbjurca/">Github</a>
                 </p>
               </td>
               <td style="padding:2.5%;width:40%;max-width:40%">
-                <a href="images/JonBarron.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/Mihnea.jpeg" class="hoverZoomLink"></a>
+                <a href="images/Mihnea.jpeg"><img class="profile-photo" alt="profile photo" src="images/Mihnea.jpeg"></a>
               </td>
             </tr>
           </tbody></table>
+
+          <!-- ── Research Section Header ── -->
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
               <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2>Research</h2>
-                <p>
-                  I'm interested in computer vision, image processing, machine learning and deep learning.
-                </p>
+                <h2>Main Research Direction Publications</h2>
               </td>
             </tr>
-          </tbody>
+          </tbody></table>
 
+          <hr class="section-divider">
+
+          <!-- ── Publications ── -->
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-		  
-            <tr onmouseout="rtgs2_stop()" onmouseover="rtgs2_start()" bgcolor="#ffffd0">
-                <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one_rt_gs2">
-                  <div class="two" id='rt_gs2_image'><video  width=100% muted autoplay loop>
-                  <source src="videos/rt_gs2.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                  </video></div>
-                  <img src='images/rt-gs2.png' width=100%>
+
+            <!-- Fourier Splatting (NEW) -->
+            <tr>
+              <td colspan="2" style="padding:10px 20px;">
+                <div class="paper-entry paper-highlight" style="display:flex;align-items:center;gap:20px;flex-wrap:wrap;">
+                  <div style="flex:0 0 220px;max-width:220px;">
+                    <img src='images/fourier_splatting.png' width="100%" style="border-radius:8px;">
+                  </div>
+                  <div style="flex:1;min-width:250px;">
+                    <strong style="font-size:16px;">Fourier Splatting: Generalized Fourier Encoded Primitives for Scalable Radiance Fields</strong>
+                    <br>
+                    <strong>Mihnea-Bogdan Jurca</strong>*,
+                    <a href="https://researchportal.vub.be/en/persons/bert-van-hauwermeiren/">Bert Van hauwermeiren</a>*,
+                    <a href="https://www.etrovub.be/people/member/about-bio/acmuntea/">Adrian Munteanu</a>
+                    <br>
+                    <span class="venue-tag venue-preprint">Preprint 2025</span>
+                    <br>
+                    <div class="paper-links" style="margin-top:8px;">
+                      <a href="https://arxiv.org/abs/2603.19834">ArXiv</a>
+                      <span class="paper-link-disabled">Code (soon)</span>
+                      <a href="https://mbjurca.github.io/fourier-splatting-page/">Project Page</a>
+                    </div>
+                    <p style="margin-top:10px;">
+                    We introduce the first inherently scalable primitive for radiance field rendering. By parameterizing planar surfels with Fourier encoded descriptors, a single trained model can be rendered at varying levels of detail by simply truncating Fourier coefficients at runtime. Includes HYDRA, a novel densification strategy within an MCMC framework.
+                    </p>
+                  </div>
                 </div>
-                <script type="text/javascript">
-                  function rtgs2_start() {
-                  document.getElementById('rt_gs2_image').style.opacity = "1";
-                  }
-          
-                  function rtgs2_stop() {
-                  document.getElementById('rt_gs2_image').style.opacity = "0";
-                  }
-                  rtgs2_stop()
-                </script>
-                </td>
-                <td style="padding:20px;width:75%;vertical-align:middle">
-                  <strong>RT-GS2: Real-Time Generalizable Semantic Segmentation for 3D Gaussian Representations of Radiance Fields</strong>
-                  <br>
-                <strong>Mihnea-Bogdan Jurca</a>*,
-                <a href="https://remcoroyen.github.io/">Remco Royen*</a>,
-                <a href="https://users.utcluj.ro/~igiosan/#about">Ion Giosan</a>,
-                <a href="https://www.etrovub.be/people/member/about-bio/acmuntea/">Adrian Munteanu</a>
-                <br>
-                <em>Arxiv</em>, 2024
-                <br>
-                <a href="https://arxiv.org/abs/2405.18033">[ArXiv]</a> 
-                [Code]
-                <a href="https://mbjurca.github.io/rt-gs2/">[Project Page]</a> 
-                <p></p>
-                <p>
-                The first generalizable semantic segmentation method employing Gaussian Splatting. Our method is not only superior in segmentation quality, but also achieves real-time performance of 27 FPS, marking an astonishing 901 times speedup compared to the SOTA.</p>
-                </td>
+              </td>
             </tr>
 
+            <!-- RT-GS2 -->
+            <tr onmouseout="rtgs2_stop()" onmouseover="rtgs2_start()">
+              <td colspan="2" style="padding:10px 20px;">
+                <div class="paper-entry paper-normal" style="display:flex;align-items:center;gap:20px;flex-wrap:wrap;">
+                  <div style="flex:0 0 220px;max-width:220px;position:relative;">
+                    <div class="two" id='rt_gs2_image' style="width:100%;height:auto;position:absolute;top:0;left:0;">
+                      <video width="100%" muted autoplay loop style="border-radius:8px;">
+                        <source src="videos/rt_gs2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <img src='images/rt-gs2.png' width="100%" style="border-radius:8px;">
+                  </div>
+                  <div style="flex:1;min-width:250px;">
+                    <strong style="font-size:16px;">RT-GS2: Real-Time Generalizable Semantic Segmentation for 3D Gaussian Representations of Radiance Fields</strong>
+                    <br>
+                    <strong>Mihnea-Bogdan Jurca</strong>*,
+                    <a href="https://remcoroyen.github.io/">Remco Royen*</a>,
+                    <a href="https://users.utcluj.ro/~igiosan/#about">Ion Giosan</a>,
+                    <a href="https://www.etrovub.be/people/member/about-bio/acmuntea/">Adrian Munteanu</a>
+                    <br>
+                    <span class="venue-tag venue-conference">BMVC 2024</span>
+                    <br>
+                    <div class="paper-links" style="margin-top:8px;">
+                      <a href="https://arxiv.org/abs/2405.18033">ArXiv</a>
+                      <a href="https://github.com/mbjurca/RT_GS2">Code</a>
+                      <a href="https://mbjurca.github.io/rt-gs2/">Project Page</a>
+                    </div>
+                    <p style="margin-top:10px;">
+                    The first generalizable semantic segmentation method employing Gaussian Splatting. Our method is not only superior in segmentation quality, but also achieves real-time performance of 27 FPS, marking an astonishing 901x speedup compared to the SOTA.
+                    </p>
+                  </div>
+                </div>
+              </td>
+            </tr>
+
+            <script type="text/javascript">
+              function rtgs2_start() {
+                document.getElementById('rt_gs2_image').style.opacity = "1";
+              }
+              function rtgs2_stop() {
+                document.getElementById('rt_gs2_image').style.opacity = "0";
+              }
+              rtgs2_stop()
+            </script>
 
           </tbody></table>
+
+          <!-- ── Other Research Section ── -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <h2>Other Research</h2>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+            <!-- OCTA Imaging -->
+            <tr>
+              <td colspan="2" style="padding:10px 20px;">
+                <div class="paper-entry paper-normal" style="padding:20px;">
+                  <strong style="font-size:16px;">Segmentation of the Retinal Vascular Network and Biomarker Quantification in OCTA Imaging</strong>
+                  <br>
+                  <a href="https://www.linkedin.com/in/darius-iulian-stan-747b28239/">Darius-Iulian Stan</a>,
+                  <strong>Mihnea-Bogdan Jurca</strong>,
+                  <a href="https://users.utcluj.ro/~raluca/">Raluca Didona Brehar</a>
+                  <br>
+                  <span class="venue-tag venue-conference">IEEE ICCP 2025</span>
+                  <br>
+                  <div class="paper-links" style="margin-top:8px;">
+                    <a href="https://www.researchgate.net/publication/401286343_Segmentation_of_the_Retinal_Vascular_Network_and_Biomarker_Quantification_in_OCTA_Imaging">Paper</a>
+                  </div>
+                  <p style="margin-top:10px;">
+                  This paper addresses two closely related research directions in Optical Coherence Tomography Angiography (OCTA) imaging: segmentation of the retinal vascular network and computation of vascular biomarkers. Two key modifications to the I-MedSAM architecture are introduced: a Frangi filter-based enhancement component and the SoftCLDice loss function to promote topological preservation during training.
+                  </p>
+                </div>
+              </td>
+            </tr>
+
+            <!-- Football Analysis -->
+            <tr>
+              <td colspan="2" style="padding:10px 20px;">
+                <div class="paper-entry paper-normal" style="padding:20px;">
+                  <strong style="font-size:16px;">A Modern Approach for Positional Football Analysis Using Computer Vision</strong>
+                  <br>
+                  <strong>Mihnea-Bogdan Jurca</strong>,
+                  <a href="https://users.utcluj.ro/~igiosan/#about">Ion Giosan</a>
+                  <br>
+                  <span class="venue-tag venue-conference">IEEE ICCP 2022</span>
+                  <br>
+                  <div class="paper-links" style="margin-top:8px;">
+                    <a href="https://www.researchgate.net/publication/368939847_A_modern_approach_for_positional_football_analysis_using_computer_vision">Paper</a>
+                  </div>
+                  <p style="margin-top:10px;">
+                  A robust pipeline for the sports analysis community to extract useful information from broadcast football matches. The framework provides detection, tracking, and role identification of players and staff, as well as mapping each player from their broadcast image position to their absolute position on the field.
+                  </p>
+                </div>
+              </td>
+            </tr>
+
+          </tbody></table>
+
+          <hr class="section-divider">
+
+          <!-- ── Teaching Section ── -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <h2>Teaching</h2>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:10px 20px;">
+                <div class="paper-entry paper-normal" style="display:flex;align-items:center;gap:20px;flex-wrap:wrap;padding:20px;">
+                  <div style="flex:0 0 220px;max-width:220px;">
+                    <img src='images/ML1_cover.png' width="100%" style="border-radius:8px;">
+                  </div>
+                  <div style="flex:1;min-width:250px;">
+                    <strong style="font-size:16px;">Laboratory Guide for Shallow Machine Learning Concepts</strong>
+                    <br>
+                    <p style="margin-top:10px;">
+                    A hands-on laboratory guide covering fundamental machine learning concepts, designed for university students as supplementary educational material.
+                    </p>
+                    <div class="paper-links" style="margin-top:8px;">
+                      <a href="https://biblioteca.utcluj.ro/files/carti-online-cu-coperta/786-6.pdf">PDF</a>
+                    </div>
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <hr class="section-divider">
+
+          <!-- ── Prizes Section ── -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <h2>Awards and Prizes</h2>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:10px 20px;">
+                <div class="paper-entry paper-normal" style="display:flex;align-items:center;gap:20px;flex-wrap:wrap;padding:20px;">
+                  <div style="flex:0 0 220px;max-width:220px;">
+                    <img src='images/bmva_poster_award.jpg' width="100%" style="border-radius:8px;">
+                  </div>
+                  <div style="flex:1;min-width:250px;">
+                    <strong style="font-size:16px;">Best Poster Award</strong>
+                    <br>
+                    <span class="venue-tag venue-conference">BMVA Summer School 2025</span>
+                    <p style="margin-top:10px;">
+                    The BMVA Computer Vision Summer School consists of an intensive week of lectures and lab sessions covering a wide range of topics in Computer Vision. Lecturers are researchers in the field from some of the most active research groups in the UK and abroad.
+                    </p>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:10px 20px;">
+                <div class="paper-entry paper-normal" style="display:flex;align-items:center;gap:20px;flex-wrap:wrap;padding:20px;">
+                  <div style="flex:0 0 220px;max-width:220px;">
+                    <img src='images/eeml_poster_award.jpg' width="100%" style="border-radius:8px;">
+                  </div>
+                  <div style="flex:1;min-width:250px;">
+                    <strong style="font-size:16px;">Best Poster Award</strong>
+                    <br>
+                    <span class="venue-tag venue-conference">EEML Summer School 2025</span>
+                    <p style="margin-top:10px;">
+                    The Eastern European Machine Learning (EEML) Summer School is a one-week summer school around core topics regarding machine learning and artificial intelligence. The summer school includes both lectures and practical sessions (labs) to improve the theoretical and practical understanding of these topics. The school is organised in English and is aimed in particular at graduate students, although it is open to anyone interested in the topic.
+                    </p>
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding:10px 20px;">
+                <div class="paper-entry paper-normal" style="display:flex;align-items:center;gap:20px;flex-wrap:wrap;padding:20px;">
+                  <div style="flex:0 0 220px;max-width:220px;">
+                    <img src='images/ANIS_award.JPG' width="100%" style="border-radius:8px;">
+                  </div>
+                  <div style="flex:1;min-width:250px;">
+                    <strong style="font-size:16px;">ANIS Education Prize</strong>
+                    <br>
+                    <span class="venue-tag venue-conference">Bursele ANIS</span>
+                    <p style="margin-top:10px;">
+                    Awarded by the Employers' Association of the Software and Services Industry (ANIS) in Romania for innovative contributions to university education. The prize was received for developing a laboratory guide and lectures on generative AI, introducing cutting-edge AI topics into the academic curriculum.
+                    </p>
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <!-- ── ClustrMaps ── -->
+          <hr class="section-divider">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:20px;text-align:center;">
+                <div style="display:inline-block;width:200px;height:200px;">
+                  <script type="text/javascript" id="clstr_globe" src="https://clustrmaps.com/globe.js?d=OCxWUohNxEsyq27vY-OG0bOnkR6HkIKRX2-oaL243P0&w=200&h=200"></script>
+                </div>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <!-- ── Footer ── -->
+          <hr class="section-divider">
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
               <td style="padding:0px">
-                <br>
-                <p style="text-align:right;font-size:small;">
-                  This website template is taken from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron's GitHub repository</a>.
-                </p>
               </td>
             </tr>
           </tbody></table>
+
         </td>
       </tr>
     </table>
